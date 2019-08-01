@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <title>Panning for Gold</title>
+    <title>HTML Forms</title>
     <body>
-        <h1>VScode Setup and Testing</h1>
-        <p>This is a test for VScode. </p>
-
+        <h1>VScode Setup and Testing as well as setting up and using forms</h1>
+        <p>This is a test for VScode and making forms</p>
+        <form action="results.html" method="GET">
+            <div>
+            <label for="name">Name
+            <input type="text" name="name" placeholder="username" required>
+            </label>
+        </div>
+        <div>
+            <label>Password
+            <input type="password" name="Password" required>
+            </label>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+            </div>
+        </form>
     </body>
 </html>
